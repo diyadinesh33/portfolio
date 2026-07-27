@@ -3385,8 +3385,13 @@ img.u-pull-left {
     }
 }
 
+    .hero-subline {
+        font-size: 0.80em;
+        line-height: 1.15;
+    }
 
 
+    
 /* ===================================================================
  * # ABOUT
  *
@@ -3425,6 +3430,61 @@ img.u-pull-left {
 .about-info__text .btn {
     margin-top    : var(--vspace-1);
     margin-bottom : 0;
+}
+
+.s-skills{
+    padding:120px 0;
+}
+
+.skill-cards{
+    margin-top:50px;
+}
+
+.skill-card{
+
+    background:#1e1e1e;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    padding:30px;
+
+    margin-bottom:30px;
+
+    transition:.3s;
+}
+
+.skill-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#ff6b6b;
+}
+
+.skill-card h4{
+
+    color:#ffffff;
+
+    margin-bottom:20px;
+
+}
+
+.skill-card span{
+
+    display:inline-block;
+
+    background:#333;
+
+    color:white;
+
+    padding:8px 14px;
+
+    margin:6px;
+
+    border-radius:20px;
+
+    font-size:14px;
 }
 
 /* --------------------------------------------------------------------
@@ -3846,6 +3906,69 @@ img.u-pull-left {
     color            : white;
 }
 
+.project-card{
+
+    margin-top:60px;
+    padding:40px;
+
+    background:#1f1f1f;
+
+    border-radius:20px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.project-card h3{
+
+    color:#fff;
+
+    margin-bottom:20px;
+
+}
+
+.project-card p{
+
+    color:#cfcfcf;
+
+    line-height:1.9;
+
+}
+
+.project-card h4{
+
+    margin-top:30px;
+
+    color:white;
+
+}
+
+.tech-list{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-top:20px;
+
+}
+
+.tech-list span{
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    background:#333;
+
+    color:white;
+
+    font-size:14px;
+
+}
+
 /* ------------------------------------------------------------------- 
  * ## testimonials
  * ------------------------------------------------------------------- */
@@ -4029,7 +4152,49 @@ img.u-pull-left {
     }
 }
 
+/* Achievement Section */
 
+.s-achievements{
+    padding:120px 0;
+}
+
+.achievement-card{
+
+    background:#1f1f1f;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    margin-bottom:30px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.3s;
+}
+
+.achievement-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#ff6b6b;
+}
+
+.achievement-card h4{
+
+    color:#fff;
+
+    margin-bottom:15px;
+}
+
+.achievement-card p{
+
+    margin:0;
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+}
 
 /* ===================================================================
  * # CONTACT
