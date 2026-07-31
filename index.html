@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
 
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
    
 </head>
 
@@ -115,14 +117,15 @@
                         </h1>
                     </div>
                     
-<!--
-                    <ul class="intro-social">
-                        <li><a href="#0">Behance</a></li>
-                        <li><a href="#0">Twitter</a></li>
-                        <li><a href="#0">Dribbble</a></li>
-                        <li><a href="#0">Instagram</a></li>
-                    </ul>
--->
+<!-- Hero Image -->
+<div class="hero-image-container">
+
+    <img src="images/diyaaaa-Photoroom.png"
+         alt="Diya Dinesh"
+         class="hero-image">
+
+</div>
+
                 </div> <!-- end intro content -->
 
                 <a href="#about" class="intro-scrolldown smoothscroll">
@@ -140,47 +143,83 @@
                 <div class="row about-info wide" data-animate-block>
 
                     <div class="column lg-6 md-12 about-info__pic-block">
-                        <img src="images/about-photo.jpg" 
-                             srcset="images/about-photo.jpg 1x, images/about-photo@2x.jpg 2x" alt="" class="about-info__pic" data-animate-el>
+                        <div class="column lg-5 md-12">
+
+    <div class="snapshot">
+
+        <h2 class="text-pretitle with-line" data-animate-el>
+            Highlights
+        </h2>
+         
+          <div class="snapshot-skills">
+
+    <h5 class="text-pretitle" data-animate-el> 
+        Expertise
+    </h5>
+
+    <ul class="skills-list" data-animate-el>
+
+        <li>Python</li>
+        <li>Machine Learning</li>
+        <li>SOC</li>
+        <li>Web Development</li>
+    
+
+    </ul>
+
+</div>
+
+
+        <div class="snapshot-item">
+            <h1>02</h1>
+            <p>Projects</p>
+        </div>
+
+        <div class="snapshot-item">
+            <h1>03</h1>
+            <p>Internships</p>
+        </div>
+
+        <div class="snapshot-item">
+            <h1>03</h1>
+            <p>Certifications</p>
+        </div>
+         
+        
+
+    </div>
+
+</div>
                     </div>
 
                     <div class="column lg-6 md-12">
                         <div class="about-info__text" >
 
                             <h2 class="text-pretitle with-line" data-animate-el>
-                                About
+                                About Me
                             </h2>
                             <p class="attention-getter" data-animate-el>
-                                M.Sc. Artificial Intelligence and Machine Learning student with a strong
-passion for building intelligent solutions using AI and machine
-learning. I have a genuine interest in applying my knowledge to solve
-real-world problems and continuously expanding my technical skills
-through learning and hands-on projects. I am a quick learner,
-adaptable, and eager to begin my career in AI/ML, where I can
-contribute to innovative projects while growing as a professional.
+                                Artificial Intelligence and Machine Learning professional with an Integrated M.Sc. in Computer Science (AI & ML) and a strong foundation in programming, machine learning, and intelligent systems.
                             </p>
-                            <a href="#0" class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
+                            <p class="attention-getter" data-animate-el>
+                                 Passionate about developing AI-driven solutions that solve real-world problems through continuous learning and hands-on projects.
+                            </p>
+                            <p class="attention-getter" data-animate-el>
+                                 Eager to contribute to innovative teams while expanding expertise in artificial intelligence, machine learning, and software development.                            </p>
+                            <a href="documents/resumedd.pdf"
+                            class="btn btn--medium u-fullwidth"
+                            target="_blank"
+                            download
+                            data-animate-el>
+                                Download Resume
+                            </a>
 
                         </div>
                     </div>
                 </div> <!-- about-info -->
 
 
-                <div class="row about-expertise" data-animate-block>
-                    <div class="column lg-12">
-
-                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
-
-                        <ul class="skills-list h1" data-animate-el>
-                            <li>Machine Learning</li>
-                            <li>Deep Learning</li>
-                            <li>Python Development</li>
-                            <li>security operation center</li>
             
-                        </ul>
-
-                    </div>
-                </div> <!-- end about-expertise -->
 
             <!-- ### Skills
             ================================================== -->
@@ -195,7 +234,7 @@ contribute to innovative projects while growing as a professional.
                         </h2>
 
                         <p class="h1">
-                            Technologies and tools I use to build intelligent and secure applications.
+                            Technologies and tools I use to develop intelligent solutions and  applications.
                         </p>
 
                     </div>
@@ -204,74 +243,151 @@ contribute to innovative projects while growing as a professional.
 
                 <div class="row skill-cards">
 
-                    <div class="column lg-4 md-6">
-                        <div class="skill-card">
-                            <h4>Programming</h4>
-                            <span>Python</span>
-                            <span>C</span>
-                            <span>Java</span>
-                            <span>R</span>
-                            <span>PHP</span>
-                            <span>JavaScript</span>
-                        </div>
-                    </div>
+                    <div class="skills-container">
 
-                    <div class="column lg-4 md-6">
-                        <div class="skill-card">
-                            <h4>AI & Machine Learning</h4>
-                            <span>Machine Learning</span>
-                            <span>Deep Learning</span>
-                            <span>TensorFlow</span>
-                            <span>Scikit-learn</span>
-                            <span>Pandas</span>
-                            <span>NumPy</span>
-                        </div>
-                    </div>
+    <!-- Programming Skills -->
+    <div class="skills-category">
 
-                    <div class="column lg-4 md-6">
-                        <div class="skill-card">
-                            <h4>Web Development</h4>
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>Bootstrap</span>
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>AJAX</span>
-                        </div>
-                    </div>
+        <h3>Programming Skills</h3>
 
-                    <div class="column lg-4 md-6">
-                        <div class="skill-card">
-                            <h4>Cyber Security</h4>
-                            <span>Wazuh</span>
-                            <span>SIEM</span>
-                            <span>SOC</span>
-                            <span>Network Security</span>
-                        </div>
-                    </div>
+        <div class="skills-grid">
 
-                    <div class="column lg-4 md-6">
-                        <div class="skill-card">
-                            <h4>Tools</h4>
-                            <span>Git</span>
-                            <span>GitHub</span>
-                            <span>VS Code</span>
-                            <span>Google Colab</span>
-                            <span>Jupyter Notebook</span>
-                            <span>XAMPP</span>
-                        </div>
-                    </div>
+            <div class="skill-item">
+                <img src="assets/icons/python.svg" alt="Python">
+                <span>Python</span>
+            </div>
 
-                    <div class="column lg-4 md-6">
-                        <div class="skill-card">
-                            <h4>Soft Skills</h4>
-                            <span>Problem Solving</span>
-                            <span>Teamwork</span>
-                            <span>Communication</span>
-                            <span>Quick Learner</span>
-                            <span>Adaptability</span>
-                        </div>
-                    </div>
+            <div class="skill-item">
+                <img src="assets/icons/sql.svg" alt="SQL">
+                <span>SQL</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/r.svg" alt="SQL">
+                <span>R</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/javascript.svg" alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/php.svg" alt="PHP">
+                <span>PHP</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/html5.svg" alt="HTML">
+                <span>HTML & CSS</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- AI & Data Science -->
+    <div class="skills-category">
+
+        <h3>Frameworks and Libraries</h3>
+
+        <div class="skills-grid">
+
+            <div class="skill-item">
+                <img src="assets/icons/numpy.svg" alt="NumPy">
+                <span>NumPy</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/pandas.svg" alt="Pandas">
+                <span>Pandas</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/matplotlib.svg" alt="Matplotlib">
+                <span>Matplotlib</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/scikit-learn.svg" alt="Scikit-learn">
+                <span>Scikit-learn</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/tensorflow.svg" alt="TensorFlow">
+                <span>TensorFlow</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/bootstrap.svg" alt="TensorFlow">
+                <span>Bootstrap</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Tools -->
+    <div class="skills-category">
+
+        <h3>Tools & Platforms</h3>
+
+        <div class="skills-grid">
+
+            <div class="skill-item">
+                <img src="assets/icons/git.svg" alt="Git">
+                <span>Git</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/github.svg" alt="GitHub">
+                <span>GitHub</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/vscode.svg" alt="VS Code">
+                <span>VS Code</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/jupyter.svg" alt="Jupyter">
+                <span>Jupyter Notebook</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/colab-google.svg" alt="Google Colab">
+                <span>Google Colab</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/icons/wazuh.svg" alt="Wazuh">
+                <span>Wazuh (SIEM)</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="skills-category">
+
+        <h3>Cloud platform</h3>
+
+        <div class="skills-grid">
+
+            <div class="skill-item">
+                <img src="assets/icons/aws.svg" alt="NumPy">
+                <span>AWS</span>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</div>
 
                 </div>
 
@@ -395,31 +511,90 @@ contribute to innovative projects while growing as a professional.
                 Some of the projects I've built during my academic journey.
             </p>
 
+
             <div class="project-card">
 
-                <h3>🏡 Kanav Homestay Booking & Management System</h3>
 
-                <p>
-                    Developed a complete booking and management website for Kanav Homestay
-                    that allows users to search rooms, make bookings, perform secure online
-                    payments, and enables administrators to manage bookings through an
-                    interactive dashboard.
-                </p>
+                <div class="project-image">
 
-                <h4>Technologies Used</h4>
+                    <img src="images/kanav.jpg" 
+                    alt="Kanav Homestay Booking System">
 
-                <div class="tech-list">
-                    <span>PHP</span>
-                    <span>MySQL</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>Bootstrap</span>
-                    <span>Razorpay</span>
-                    <span>SendGrid</span>
                 </div>
 
+
+                <div class="project-content">
+
+
+                 <h3 class="project-title">
+                     Homestay Booking & Management System
+                </h3>
+
+
+                    <p>
+                        A full-stack booking and management platform developed
+                        for Kanav Homestay that enables customers to search rooms,
+                        make reservations, complete secure online payments, and
+                        receive booking confirmations. An admin dashboard allows
+                        efficient management of rooms, bookings, and users.
+                    </p>
+
+
+                    <h4>
+                        Key Features
+                    </h4>
+
+
+                    <ul>
+                        <li>Room availability and booking management</li>
+                        <li>Razorpay online payment integration</li>
+                        <li>Admin dashboard for managing bookings</li>
+                        <li>Email notifications using SendGrid</li>
+                    </ul>
+
+
+
+                    <h4>
+                        Technologies
+                    </h4>
+
+
+                    <div class="tech-list">
+
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                        <span>Razorpay</span>
+                        <span>SendGrid</span>
+
+                    </div>
+
+
+
+                    <div class="project-links">
+
+                        <a href="https://github.com/diyadinesh33/homestay-booking-system" 
+                        class="project-link"
+                        target="_blank">
+
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+
+                        </a>
+
+                        
+
+                    </div>
+
+
+                </div>
+
+
             </div>
+
 
         </div>
 
@@ -440,60 +615,112 @@ contribute to innovative projects while growing as a professional.
             </h2>
 
             <p class="h1">
-                Professional development, certifications, and activities that reflect my commitment to continuous learning.
+                Highlights of my achievements, certifications, and commitment to continuous learning.
             </p>
 
         </div>
 
     </div>
 
+
     <div class="row">
 
-        <!-- Achievement -->
-        <div class="column lg-6 md-12">
-            <div class="achievement-card">
+        <div class="column lg-12">
 
-                <h4>🏆 Extension Lecture on Artificial Intelligence</h4>
+            <div class="ac-list">
 
-                <p>
-                    Conducted an extension lecture on Artificial Intelligence and AI tools for learning and teaching at <strong>Jnana Niketan Institute, Kerala</strong>.
-                </p>
+
+                <!-- Achievement -->
+
+                <div class="ac-item">
+
+                    <div class="ac-icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+
+                    <div class="ac-info">
+
+                        <h3>Extension Lecture on Artificial Intelligence</h3>
+
+                        <p class="ac-subtitle">
+                            Jnana Niketan Institute of Philosophy and Religion
+                        </p>
+
+                        <p class="ac-date">
+                            July 2026
+                        </p>
+
+                        <p class="ac-description">
+                            Delivered an extension lecture titled
+                            <strong>"Future Ready: AI Unlocked"</strong>,
+                            introducing Artificial Intelligence and practical AI tools
+                            for learning and teaching.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Certification -->
+
+                <div class="ac-item">
+
+                    <div class="ac-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+
+                    <div class="ac-info">
+
+                        <h3>Machine Learning Basics</h3>
+
+                        <p class="ac-subtitle">
+                            VOIS
+                        </p>
+
+                        <p class="ac-description">
+                            Successfully completed the Machine Learning Basics certification by VOIS, gaining foundational knowledge of machine learning concepts, algorithms, and practical applications.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Certification -->
+
+                <div class="ac-item">
+
+                    <div class="ac-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+
+                    <div class="ac-info">
+
+                        <h3>Git & GitHub Basics</h3>
+
+                        <p class="ac-subtitle">
+                            Google Developer Student Clubs (GDSC)
+                        </p>
+
+                        <p class="ac-description">
+                            Completed the Git & GitHub Basics workshop organized by Google Developer Student Clubs (GDSC), developing practical skills in version control and collaborative software development.
+                        </p>
+
+                    </div>
+
+                </div>
 
             </div>
-        </div>
 
-        <!-- Certification -->
-        <div class="column lg-6 md-12">
-            <div class="achievement-card">
-
-                <h4>📜 Machine Learning Basics</h4>
-
-                <p>
-                    Successfully completed the <strong>Machine Learning Basics</strong> program conducted by <strong>VOIS</strong>.
-                </p>
-
-            </div>
-        </div>
-
-        <!-- Workshop -->
-        <div class="column lg-6 md-12">
-            <div class="achievement-card">
-
-                <h4>📜 Git & GitHub Workshop</h4>
-
-                <p>
-                    Participated in a hands-on <strong>Git & GitHub Basics Workshop</strong> organized by <strong>Google Developer Student Clubs (GDSC)</strong>.
-                </p>
-
-            </div>
         </div>
 
     </div>
 
 </section>
 
-            <!-- ### contact
-            ================================================== -->
             <!-- ### Contact
 ================================================== -->
 <section id="contact" class="s-contact target-section">
@@ -518,20 +745,20 @@ contribute to innovative projects while growing as a professional.
 
         <div class="column lg-4 md-6 contact-block">
             <h3 class="text-pretitle">
-                📧 Email
+                 Email
             </h3>
 
             <p class="contact-links">
-                <a href="mailto:diyadineshdd7@gmail.com">
-                    diyadineshdd7@gmail.com
+                <a href="mailto:diyadd7ad@gmail.com">
+                    diyadd7ad@gmail.com
                 </a>
             </p>
         </div>
 
 
-        <div class="column lg-4 md-6 contact-block">
+        <div class="column lg-4 md-12 contact-block">
             <h3 class="text-pretitle">
-                📍 Location
+                 Location
             </h3>
 
             <p class="contact-links">
@@ -542,7 +769,7 @@ contribute to innovative projects while growing as a professional.
 
         <div class="column lg-4 md-12 contact-block">
             <h3 class="text-pretitle">
-                📞 Phone
+                 Phone
             </h3>
 
             <p class="contact-links">
@@ -565,25 +792,28 @@ contribute to innovative projects while growing as a professional.
 
             <ul class="contact-social">
 
-                <li>
-                    <a href="https://github.com/diyadinesh33" target="_blank">
-                        GitHub
-                    </a>
-                </li>
+    <li>
+        <a href="https://github.com/diyadinesh33" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+        </a>
+    </li>
 
-                <li>
-                    <a href="YOUR_LINKEDIN_URL" target="_blank">
-                        LinkedIn
-                    </a>
-                </li>
+    <li>
+        <a href="https://www.linkedin.com/in/diyadinesh33" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            LinkedIn
+        </a>
+    </li>
 
-                <li>
-                    <a href="mailto:diyadineshdd7@gmail.com">
-                        Email
-                    </a>
-                </li>
+    <li>
+        <a href="mailto:diyadd7ad@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            Email
+        </a>
+    </li>
 
-            </ul>
+</ul>
 
         </div>
 
@@ -594,9 +824,8 @@ contribute to innovative projects while growing as a professional.
 
         <div class="column lg-12">
 
-            <a href="mailto:diyadineshdd7@gmail.com"
-               class="btn btn--primary btn--large u-fullwidth">
-                Let's Work Together
+            <a href="mailto:diyadineshdd7@gmail.com" class="btn btn--primary">
+                Get In Touch
             </a>
 
         </div>
@@ -605,8 +834,6 @@ contribute to innovative projects while growing as a professional.
 
 </section>
 
-        <!-- ## footer
-        ================================================== -->
        <!-- ## footer
 ================================================== -->
 <footer class="s-footer">
